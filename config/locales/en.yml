@@ -657,7 +657,7 @@ en:
     publishing: Publishing
     web: Web
   remote_follow:
-    acct: Enter your username@domain you want to act from
+    acct: Enter the username@domain you want to act as
     missing_resource: Could not find the required redirect URL for your account
     no_account_html: Don't have an account? You can <a href='%{sign_up_path}' target='_blank'>sign up here</a>
     proceed: Proceed to follow
