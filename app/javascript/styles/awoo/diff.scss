@@ -1,0 +1,7 @@
+.modal-layout__mastodon {
+  > * {
+    flex: 1;
+    max-height: 256px;
+    background: url('../images/wolf_ui_plane.svg') no-repeat left bottom / contain;
+  }
+}
