@@ -5,17 +5,17 @@ class ActivityTracker
 
   class << self
     def increment(prefix)
-      key = [prefix, current_week].join(':')
+      # key = [prefix, current_week].join(':')
 
-      redis.incrby(key, 1)
-      redis.expire(key, EXPIRE_AFTER)
+      # redis.incrby(key, 1)
+      # redis.expire(key, EXPIRE_AFTER)
     end
 
     def record(prefix, value)
-      key = [prefix, current_week].join(':')
+      # key = [prefix, current_week].join(':')
 
-      redis.pfadd(key, value)
-      redis.expire(key, EXPIRE_AFTER)
+      # redis.pfadd(key, value)
+      # redis.expire(key, EXPIRE_AFTER)
     end
 
     private
